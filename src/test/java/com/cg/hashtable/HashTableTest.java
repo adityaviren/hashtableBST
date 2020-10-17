@@ -40,7 +40,7 @@ public class HashTableTest {
         Assert.assertEquals(3,frequency);
     }
 
-    /*@Test
+    @Test
     public void givenString_whenRemovedAvoidable_shouldReturnAvoidableFrequency() {
         String str="avoidable";
         HashTable<String,Integer> hashtable=new HashTable<>();
@@ -56,5 +56,5 @@ public class HashTableTest {
         hashtable.remove("avoidable");
         Integer frequency = hashtable.get("avoidable");
         Assert.assertEquals(null,frequency);
-    }*/
+    }
 }

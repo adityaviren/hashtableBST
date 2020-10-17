@@ -101,7 +101,7 @@ public class LinkedList<K,V> {
         }
         return null;
     }
-    /*public void delete(K key) {
+    public void delete(K key) {
         MapNode tempNode = head;
         while (tempNode != null) {
             if(head.getKey().equals(key)){
@@ -121,7 +121,7 @@ public class LinkedList<K,V> {
             tail = tempNode;
             tempNode = tempNode.getNext();
         }
-    }*/
+    }
 
     public void printLinkedList() {
         MapNode node = head;
