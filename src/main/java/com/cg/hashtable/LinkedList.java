@@ -101,6 +101,27 @@ public class LinkedList<K,V> {
         }
         return null;
     }
+    /*public void delete(K key) {
+        MapNode tempNode = head;
+        while (tempNode != null) {
+            if(head.getKey().equals(key)){
+                if(head.getNext()==null){
+                    head=null;
+                    tail=null;
+                    break;
+                }
+                else{
+                    head=head.getNext();
+                    break;
+                }
+            }
+            if (tempNode.getNext().getKey().equals(key)) {
+                tempNode.setNext(tempNode.getNext().getNext());
+            }
+            tail = tempNode;
+            tempNode = tempNode.getNext();
+        }
+    }*/
 
     public void printLinkedList() {
         MapNode node = head;
